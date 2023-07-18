@@ -8,7 +8,6 @@ collections:
     label: "Blog"
     folder: "src/blog"
     create: true
-    slug: "blog-{{day}}-{{month}}-{{year}}"
     fields:
       - { label: "Título", name: "title", widget: "string"}
       - { label: "Fecha", name: "fecha", widget: "string"}
