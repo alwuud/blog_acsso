@@ -13,4 +13,4 @@ collections:
       - { label: "Título", name: "title", widget: "string"}
       - { label: "Fecha", name: "fecha", widget: "string"}
       - { label: "Imagen", name: "imagen", widget: "image"}
-      - { label: "Contenido": name: "body", widget: "markdown"}
+      - { label: "Contenido",name: "body", widget: "markdown"}
