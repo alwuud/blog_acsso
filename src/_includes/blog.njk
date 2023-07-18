@@ -1,0 +1,19 @@
+  
+ {%-for post in collections.post -%} 
+  <li class="blog-container">
+              <div class="blog-card">
+                <img
+                  src="{{post.data.imagen}}"
+                  alt="Blog image"
+                  class="blog-image"
+                />
+                <div class="blog-summary">
+                  <h3>{{post.data.fecha}}</h3>
+                  <p>{{post.data.title}}</p>
+                  <a href="{{post.url}}" class="blog-link"
+                    >Leer mas</a
+                  >
+                </div>
+              </div>
+</li>
+{%- endfor %}

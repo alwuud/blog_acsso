@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salud y Seguridad Ocupacional - ACSSO</title>
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn flex-center">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--=======Header=======-->
+    <header>
+      <div class="nav-bar">
+        <img
+          class="logo"
+          alt="logo"
+          src="images/logo.png"
+          width="128"
+          height="128"
+        />
+        <div class="navigation">
+          <div class="nav-items">
+            <div class="nav-close-btn"></div>
+            <a class="active" href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#skills">Equipo</a>
+            <a href="#services">Servicios</a>
+            <a href="#portfolio">Galería</a>
+            <a href="#partners">Socios Seguros</a>
+            <!--nuevo-->
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contacto</a>
+          </div>
+        </div>
+        <div class="nav-menu-btn"></div>
+      </div>
+    </header>
+
+    <!--=======Home section=======-->
+    <section class="home flex-center" id="home">
+      <div class="home-container">
+        <div class="media-icons">
+          <!--<a href="#"><i class="fab fa-facebook-f"></i></a>-->
+          <a href="https://instagram.com/acsso.gt"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/acssogt/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://wa.me/50248856811?text=Hola,%20estoy%20interasado%20en%20contratar%20sus%20servicios"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </div>
+        <div class="info">
+          <h2>ACSSO</h2>
+
+          <h3>
+            Asesoría y Consultoría en <br />
+            Salud y Seguridad Ocupacional
+          </h3>
+          <br />
+          <p>
+            Somos un grupo de profesionales comprometidos con nuestros clientes,
+            y sus objetivos. Buscamos el resguardo de la vida, integridad y
+            salud de los trabajadores en los lugares de trabajo por medio de
+            acciones preventivas en materia de Salud y Seguridad Ocupacional
+            bajo el estricto cumplimiento de la legislación nacional e
+            internacional vigente.
+          </p>
+          <a href="" class="btn"
+            >Leer más <i class="fas fa-arrow-circle-right"></i
+          ></a>
+        </div>
+        <div class="home-img">
+          <img src="images/workers.png" alt="" />
+        </div>
+      </div>
+      <a href="#about" class="scroll-down"
+        >Sigue leyendo <i class="fas fa-arrow-down"></i
+      ></a>
+    </section>
+
+    <!--=======BLOG SECTION========-->
+    <section class="blog section" id="blog">
+      <div class="container flex-center">
+        <h1 class="section-title-01">BLOG</h1>
+        <h2 class="section-title-02">BLOG</h2>
+        <div class="content">
+          <div class="blog-description">
+            <h3>Temas de actualidad en seguridad ocupacional</h3>
+          </div>
+          {{content | safe}}
+        </div>
+      </div>
+    </section>
+
+    <!--=======About section=======-->
+    <section class="about section" id="about">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Nosotros</h1>
+        <h2 class="section-title-02">Nosotros</h2>
+        <div class="content flex-center">
+          <div class="about-img">
+            <img src="images/identidad.png" alt="" />
+          </div>
+          <div class="about-info">
+            <div class="description">
+              <h3>Misión</h3>
+              <h4>
+                Promovemos lugares de trabajo <span>seguros</span> con
+                profesionales idóneos que buscan la protección de la vida,
+                integridad y salud de los colaboradores; para fomentar una
+                cultura de
+                <span>Salud y Seguridad Ocupacional</span> alcanzable.
+              </h4>
+              <p></p>
+              <h3>Visión</h3>
+              <h4>
+                Convertirnos en el referente <span>centroamericano</span> para
+                la gestión de la <span>salud y seguridad</span> en los lugares
+                de trabajo.
+              </h4>
+              <p></p>
+              <h3>Valores</h3>
+            </div>
+            <ul class="professional-list">
+              <li class="list-item">
+                <h3>Responsabilidad</h3>
+              </li>
+              <li class="list-item">
+                <h3><span>Excelencia</span></h3>
+              </li>
+              <li class="list-item">
+                <h3>Lealtad</h3>
+              </li>
+            </ul>
+            <ul class="professional-list">
+              <li class="list-item">
+                <h3><span>Compromiso</span></h3>
+              </li>
+              <li class="list-item">
+                <h3>Honestidad</h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Skills section=======-->
+    <section class="skills section" id="skills">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Nuestro equipo</h1>
+        <h2 class="section-title-02">Nuestro equipo</h2>
+        <div class="content">
+          <div class="skills-description">
+            <h3>Profesionales ACSSO</h3>
+            <p>
+              Hemos apoyado a empresas del sector de ingeniería y construcción a
+              desarrollar sus actividades en ambientes seguros y saludables.
+              Nuestros expertos ponen al servicio de nuestros clientes todas sus
+              habilidades para la promoción de una cultura de salud y seguridad
+              ocupacional que permita la prevención de riesgos, así como el
+              resguardo de la vida, salud e integridad de todos los
+              trabajadores. Nos apegamos a la legislación guatemalteca vigente e
+              innovamos con estrategias y capacitaciones internacionales.
+            </p>
+          </div>
+          <div class="skills-info">
+            <div class="experience-card">
+              <div class="upper">
+                <h3>Analista de Riesgos</h3>
+                <!--<h5>Tiempo completo | Medio tiempo</h5>-->
+              </div>
+              <div class="hr"></div>
+              <h4><label>Consultor</label></h4>
+              <p>
+                Elabora planes de prevención de riesgos laborales y planes de
+                salud y seguridad ocupacional.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Identifica, estima, valora y prioriza los riesgos en el lugar de
+                trabajo.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Propone el tratamiento de los riesgos identificados, sugiriendo
+                condiciones de trabajo y los procedimientos seguros de acuerdo
+                con las actividades.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Planea la educación, información y comunicación de los
+                lineamientos y directrices para la prevención de riesgos.
+              </p>
+            </div>
+            <div class="experience-card">
+              <div class="upper">
+                <h3>Gestor de Salud y Seguridad</h3>
+                <!--<h5>Tiempo completo | Medio tiempo</h5>-->
+              </div>
+              <div class="hr"></div>
+              <h4>
+                <label>Tiempo completo</label><label>Tiempo parcial</label>
+              </h4>
+              <p>
+                Organiza, coordina y supervisa la gestión de salud y seguridad
+                en un proyecto.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Verifica el cumplimiento de la ley vigente por parte de todos
+                los contratistas.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Supervisa constantemente la implementación de los lineamientos y
+                directrices por parte de los Monitores de SSO bajo su cargo.
+              </p>
+            </div>
+            <div class="experience-card">
+              <div class="upper">
+                <h3>Monitor Salud y Seguridad Ocupacional</h3>
+                <!--<h5>Tiempo completo | Medio tiempo</h5>-->
+              </div>
+              <div class="hr"></div>
+              <h4><label>Outsourcing</label></h4>
+              <p>
+                Implementa los lineamientos de la ley vigente y los del plan de
+                salud y seguridad ocupacional.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Asegura las condiciones de salud y seguridad dentro de un
+                proyecto.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Consolida sistemas y procesos adecuados que minimicen los
+                riesgos en el lugar de trabajo.
+              </p>
+            </div>
+            <div class="experience-card">
+              <div class="upper">
+                <h3>Gestor de Competencias</h3>
+                <!--<h5>Tiempo completo | Medio tiempo</h5>-->
+              </div>
+              <div class="hr"></div>
+              <h4><label>Coach</label></h4>
+              <p>
+                Diseña planes de inducción y capacitación que permitan el
+                crecimiento y optimización de la gestión de salud y seguridad en
+                una empresa.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Capacita personal en temas relacionados con el resguardo de la
+                vida, integridad y salud de los trabajadores.
+              </p>
+              <div class="hr"></div>
+              <p>
+                Promueve las habilidades, destrezas y conocimientos en temas de
+                salud y seguridad ocupacional.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Services section=======-->
+    <section class="services section" id="services">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Nuestros servicios</h1>
+        <h2 class="section-title-02">Nuestros servicios</h2>
+        <div class="content">
+          <div class="services-description">
+            <h3>Profesionales SSO a tu servicio</h3>
+          </div>
+          <ul class="service-list">
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-helmet-safety"></i>
+                <h3>Monitores</h3>
+                <div class="learn-more-btn">
+                  Leer más <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Monitor SSO</h3>
+                  <h4>¿Por qué se necesita?</h4>
+                  <p>
+                    Se encarga de monitorear y prevenir los riesgos laborales en
+                    el lugar de trabajo.
+                  </p>
+                  <h4>Funciones principales</h4>
+                  <ul>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Implementación de
+                      acciones para prevenir accidentes e incidentes
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Verificación y
+                      supervisión de condiciones y procedimientos seguros
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Informar y capacitar
+                      al personal sobre temas de salud y seguridad ocupacional
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Realizar inspecciones
+                      y auditorias de cumplimiento de normas, medidas y
+                      lineamientos de seguridad
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-building-user"></i>
+                <h3>Supervisiones</h3>
+                <div class="learn-more-btn">
+                  Leer más <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Gestor de SSO</h3>
+                  <h4>¿Por qué se necesita?</h4>
+                  <p>
+                    Para gestionar las acciones de Salud y Seguridad de un
+                    proyecto en estricto cumplimiento de la normativa legal
+                    vigente.
+                  </p>
+                  <h4>Funciones principales</h4>
+                  <ul>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Organizar y coordinar
+                      a los Monitores de SSO de los contratistas y
+                      subcontratistas de un proyecto
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Supervisar el
+                      cumplimiento de las normas y directrices de salud y
+                      seguridad dentro del proyecto
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Evaluar el desempeño
+                      de los Monitores de SSO
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Establecer medidas de
+                      control para la mejora continua de las acciones de
+                      prevención
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Capacitaciones</h3>
+                <div class="learn-more-btn">
+                  Leer más <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Capacitaciones SSO</h3>
+                  <h4>¿Por qué se necesita?</h4>
+                  <p>
+                    La base de la prevención de riesgos es contar con personal
+                    informado y capacitado que permita el desarrollo de las
+                    actividades de forma segura y saludable.
+                  </p>
+                  <h4>Brindamos capacitaciones en:</h4>
+                  <ul>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Prevención de riesgos
+                      laborales
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Primeros auxilios y
+                      RCP
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Trabajos en alturas y
+                      espacios confinados
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Manejo de extintores
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="service-container">
+              <div class="service-card">
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h3>Planes de SSO y PRL</h3>
+                <div class="learn-more-btn">
+                  Leer más <i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+              </div>
+              <div class="service-modal flex-center">
+                <div class="service-modal-body">
+                  <i class="fas fa-times modal-close-btn"></i>
+                  <h3>Plan SSO y PRL</h3>
+                  <h4>¿Por qué se necesita?</h4>
+                  <p>
+                    Para tener el compendio de todas las acciones a implementar
+                    para el resguardo de la vida, bienestar e integridad de los
+                    trabajadores de acuerdo a la ley vigente.
+                  </p>
+                  <h4>Contenido del plan</h4>
+                  <ul>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Análisis de riesgos
+                      con base en la descripción de puestos laborales
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Tratamiento y medidas
+                      de prevención de los riesgos laborales identificados
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Sistemas de monitoreo
+                      de accidentes, enfermedades ocupacionales y epidemiológico
+                    </li>
+                    <li>
+                      <i class="fas fa-check-circle"></i> Plan de respuesta ante
+                      emergencias
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Portfolio section=======-->
+    <section class="portfolio section" id="portfolio">
+      <div class="container flex-center">
+        <h1 class="section-title-01">ACSSO en acción</h1>
+        <h2 class="section-title-02">ACSSO en acción</h2>
+        <div class="content">
+          <div class="portfolio-list">
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_1.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_3.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_6.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_6.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_9.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_9.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_2.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="img-card-container">
+              <div class="img-card">
+                <div class="overlay"></div>
+                <div class="info">
+                  <h3>Práctica</h3>
+                  <span>RCP</span>
+                </div>
+                <img src="images/portfolio_10.jpg" alt="" />
+              </div>
+              <div class="porfolio-model flex-center">
+                <div class="portfolio-model-body">
+                  <i class="fas fa-times portfolio-close-btn"></i>
+                  <h3>Práctica de Reanimación Cardio Pulmonar - RCP</h3>
+                  <img src="images/portfolio_10.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=======Our Clients=======-->
+    <section class="our-client section" id="partners">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Nuestros Socios Seguros</h1>
+        <h2 class="section-title-02">Nuestros Socios Seguros</h2>
+        <div class="content">
+          <div class="swiper client-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_1.jpeg" alt="" />
+                </div>
+                <!--<div class="client-details">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <h3>Yudel Adelbert</h3>
+                  <span>Marketing Manager</span>
+                </div>-->
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_2.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_3.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_4.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_5.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_6.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_7.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_8.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_9.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_10.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide flex-center">
+                <div class="client-img">
+                  <img src="images/socio_11.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Contact section=======-->
+    <section class="contact section" id="contact">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Contáctanos</h1>
+        <h2 class="section-title-02">Contáctanos</h2>
+        <div class="content">
+          <div class="contact-left">
+            <h2>
+              Permítenos hacer de tu empresa <br />
+              un lugar más seguro.
+            </h2>
+            <ul class="contact-list">
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-phone"></i> Teléfono
+                </h3>
+                <span>+502 - 4885 6811</span>
+              </li>
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-envelope"></i> Correo electrónico
+                </h3>
+                <span
+                  ><a href="mailto:atencion@acsso.info"
+                    >atencion@acsso.info</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-right">
+            <p>
+              En <span>ACSSO</span> queremos servirte.<br />
+              Tenemos el mejor recurso en SSO para tu proyecto.
+            </p>
+            <form
+              name="contacto"
+              method="POST"
+              data-netlify="true"
+              class="contact-form"
+            >
+              <div class="first-row">
+                <input type="text" name="nombre" placeholder="Nombre" />
+              </div>
+              <div class="second-row">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Correo electrónico"
+                />
+                <input type="text" name="asunto" placeholder="Asunto" />
+              </div>
+              <div class="third-row">
+                <textarea
+                  name="mensaje"
+                  id=""
+                  rows="7"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+              <button class="btn" type="submit">
+                Enviar mensaje <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=======Footer=======-->
+    <footer>
+      <div class="footer-container">
+        <div class="about group">
+          <h2>ACSSO</h2>
+          <p>
+            Asesoría y Consultoría en <br />
+            Salud y Seguridad Ocupacional
+          </p>
+          <a href="#about">Conócenos</a>
+        </div>
+        <div class="hr"></div>
+        <div class="info group">
+          <h3>Exploranos</h3>
+          <ul>
+            <li><a href="#skills">Equipo</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#portfolio">Galería</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="follow group">
+          <h3>Síguenos</h3>
+          <ul>
+            <li>
+              <a href="https://instagram.com/acsso.gt"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/acssogt/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/50248856811?text=Hola,%20estoy%20interasado%20en%20contratar%20sus%20servicios"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright group">
+        <p>© 2023 by Digisol GT for ACSSO. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--=======External scripts=======-->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
